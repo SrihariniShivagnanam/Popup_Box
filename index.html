@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Box</title>
+</head>
+<style>
+    #popupBox {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #0fdd46;
+        padding: 20px;
+        border: 1px solid #ee0f0f;
+        display: none;
+    }
+</style>
+<body>
+    <button id="openPopupButton">Open Popup</button>
+    <div id="popupBox">
+        <p>This is a popup box</p>
+        <button id="closePopupButton">Close</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
